@@ -1,6 +1,20 @@
 # Substrate Agent Skill
 
-ELPS/substrate development toolkit for AI coding tools. Provides an MCP server and full CLI for code navigation, diagnostics, performance analysis, linting, debugging, testing, and documentation -- with full substrate builtin awareness.
+<p align="center">
+  <img src="assets/substrate-icon.png" alt="Luther Systems" width="120" />
+</p>
+
+<p align="center">
+  <strong>Developer toolkit for <a href="https://enterprise.luthersystems.com/">Luther Enterprise</a></strong>
+</p>
+
+---
+
+[Luther Enterprise](https://enterprise.luthersystems.com/) is Luther Systems' platform for building and operating regulated, auditable business processes. **Substrate** is the core runtime of Luther Enterprise -- an execution environment for business logic written in [ELPS](https://github.com/luthersystems/elps) (a Lisp dialect). Business logic modules are called **phyla** -- packages of `.lisp` files that define endpoints and business rules.
+
+**shirotester** is the development toolkit for substrate. It provides an MCP server, language server, semantic linter, performance analyzer, debugger, REPL, test runner, and documentation browser -- all with full awareness of substrate's built-in packages.
+
+This agent skill brings shirotester's capabilities to any AI coding tool.
 
 | Tool | Install |
 |------|---------|
@@ -113,14 +127,6 @@ The `~/.agents/skills/` directory is the standard cross-tool location.
 
 ---
 
-## What is Substrate?
-
-Substrate is [Luther Systems'](https://luthersystems.com) execution environment for business logic written in [ELPS](https://github.com/luthersystems/elps) (a Lisp dialect). Business logic modules are called **phyla** -- packages of `.lisp` files that define endpoints and business rules.
-
-shirotester is the development toolkit that understands substrate's built-in packages (`cc:*`, `statedb:*`, `sidedb:*`, `crypto:*`, `router:*`) and provides accurate analysis that generic tools cannot.
-
----
-
 ## Security
 
 shirotester runs **entirely locally**. No data leaves your machine. No API keys, tokens, or remote servers required. See [SECURITY.md](SECURITY.md) for details.
@@ -129,12 +135,31 @@ shirotester runs **entirely locally**. No data leaves your machine. No API keys,
 
 ## Resources
 
+- [Luther Enterprise](https://enterprise.luthersystems.com/) -- the platform substrate powers
+- [Documentation](https://docs.luthersystems.com)
 - [ELPS Language](https://github.com/luthersystems/elps)
 - [Substrate](https://github.com/luthersystems/substrate)
 - [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=LutherSystems.substrate)
 - [npm: @luthersystems/shirotester](https://www.npmjs.com/package/@luthersystems/shirotester)
 - [Agent Skills Standard](https://agentskills.io)
+
+---
+
+## Get Help
+
+- [Discord](https://insideout.luthersystems.com/discord) -- chat with the devs
+- [Documentation](https://docs.luthersystems.com)
+- Email: [contact@luthersystems.com](mailto:contact@luthersystems.com)
+
+---
+
+## About Luther Systems
+
+Luther Systems is an enterprise infrastructure and automation company founded in 2015, headquartered in London, UK. Our mission is to accelerate the advent of the automated enterprise.
+
 - [Luther Systems](https://luthersystems.com)
+- [Luther Enterprise](https://enterprise.luthersystems.com/)
+- [Documentation](https://docs.luthersystems.com)
 
 ---
 

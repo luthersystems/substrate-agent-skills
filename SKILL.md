@@ -14,14 +14,16 @@ version: 1.0.0
 
 # Substrate -- ELPS Development Toolkit
 
-Substrate is [Luther Systems'](https://luthersystems.com) execution environment for business logic written in [ELPS](https://github.com/luthersystems/elps) (a Lisp dialect). Business logic modules are called **phyla** (singular: phylum) -- packages of `.lisp` files that define endpoints and business rules.
+[Luther Enterprise](https://enterprise.luthersystems.com/) is Luther Systems' platform for building and operating regulated, auditable business processes. **Substrate** is the core runtime of Luther Enterprise -- an execution environment for business logic written in [ELPS](https://github.com/luthersystems/elps) (a Lisp dialect). Business logic modules are called **phyla** (singular: phylum) -- packages of `.lisp` files that define endpoints and business rules.
 
 **shirotester** is the development toolkit for substrate. It provides an MCP server, language server, semantic linter, performance analyzer, debugger, REPL, test runner, and documentation browser -- all with full awareness of substrate's built-in packages (`cc:*`, `statedb:*`, `sidedb:*`, `crypto:*`, `router:*`, etc.).
 
 ### Resources
 
+- [Luther Enterprise](https://enterprise.luthersystems.com/) -- the platform substrate powers
+- [Documentation](https://docs.luthersystems.com) -- Luther Enterprise docs
 - [ELPS Language](https://github.com/luthersystems/elps) -- the Lisp dialect
-- [Substrate](https://github.com/luthersystems/substrate) -- the execution environment
+- [Substrate](https://github.com/luthersystems/substrate) -- the core runtime
 - [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=LutherSystems.substrate) -- syntax highlighting, LSP, debugging
 - [npm: @luthersystems/shirotester](https://www.npmjs.com/package/@luthersystems/shirotester) -- install via npx
 - [shirotester CLI docs](https://github.com/luthersystems/substrate/blob/main/cmd/shirotester/README.md)

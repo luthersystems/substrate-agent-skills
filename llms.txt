@@ -2,15 +2,18 @@
 
 > ELPS/substrate development toolkit by Luther Systems
 
-Substrate is Luther Systems' execution environment for business logic written in ELPS (a Lisp dialect). shirotester is the development CLI providing MCP server, language server, semantic linter, performance analyzer, debugger, REPL, test runner, and documentation browser with full substrate builtin awareness.
+Luther Enterprise is Luther Systems' platform for building and operating regulated, auditable business processes. Substrate is the core runtime of Luther Enterprise -- an execution environment for business logic written in ELPS (a Lisp dialect). shirotester is the development CLI providing MCP server, language server, semantic linter, performance analyzer, debugger, REPL, test runner, and documentation browser with full substrate builtin awareness.
 
 ## Links
 
+- Luther Enterprise: https://enterprise.luthersystems.com/
+- Documentation: https://docs.luthersystems.com
 - Substrate repo: https://github.com/luthersystems/substrate
 - ELPS language: https://github.com/luthersystems/elps
 - npm package: https://www.npmjs.com/package/@luthersystems/shirotester
 - VS Code extension: https://marketplace.visualstudio.com/items?itemName=LutherSystems.substrate
 - Luther Systems: https://luthersystems.com
+- Discord: https://insideout.luthersystems.com/discord
 
 ## MCP Server
 
