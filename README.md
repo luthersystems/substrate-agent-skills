@@ -148,6 +148,7 @@ shirotester runs **entirely locally**. No data leaves your machine. No API keys,
 ## Get Help
 
 - [Discord](https://insideout.luthersystems.com/discord) -- chat with the devs
+- [Subreddit](https://www.reddit.com/r/luthersystems/) -- community discussion
 - [Documentation](https://docs.luthersystems.com)
 - Email: [contact@luthersystems.com](mailto:contact@luthersystems.com)
 
