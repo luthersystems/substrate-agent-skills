@@ -1,0 +1,14 @@
+interface:
+  display_name: "Substrate"
+  short_description: "ELPS/substrate development toolkit — lint, analyze, debug, test"
+  icon_small: "./assets/substrate-icon.png"
+  default_prompt: "Use shirotester for ELPS phylum code navigation, diagnostics, and analysis."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "shirotester"
+      description: "Substrate shirotester MCP — hover, definition, references, diagnostics, performance analysis for ELPS code with full substrate builtin support"
+      transport: "stdio"
+      command: "npx"
+      args: ["-y", "@luthersystems/shirotester", "mcp", "--workspace-root", "."]

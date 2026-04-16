@@ -1,0 +1,20 @@
+# AI coding tool skill directories
+.claude/
+.cursor/
+.windsurf/
+.kiro/
+.roo/
+.goose/
+.codex/
+.agents/
+.firecrawl/
+.tmp/
+skills/
+skills-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/

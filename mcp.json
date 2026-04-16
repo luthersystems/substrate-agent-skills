@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shirotester": {
+      "command": "npx",
+      "args": ["-y", "@luthersystems/shirotester", "mcp", "--workspace-root", "."]
+    }
+  }
+}
